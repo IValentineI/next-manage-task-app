@@ -1,14 +1,13 @@
-"use client"
- 
-import Task_Icons from "@/assets/Task_Icons.png";
-import FooterSAU from "@/components/FooterSAU";
+"use client";
 import Image from "next/image";
+import Task_Icons from "@/assets/Task_Icons.png";
 import Link from "next/link";
+import FooterSAU from "@/components/FooterSAU";
 import { useState } from "react";
-import Swal from "sweetalert2";
 import { supabase } from "@/services/supabaseClient";
+import Swal from "sweetalert2";
 import { useRouter } from "next/navigation";
- 
+
 export default function Page() {
     const router = useRouter();
   // state
